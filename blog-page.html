@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog article about web development">
+    <title>My Tech Blog - Getting Started with Semantic HTML5</title>
+</head>
+<body>
+
+    <!-- ======================================= -->
+    <!-- TODO 1 & 2: PAGE HEADER WITH NAVIGATION -->
+    <!-- ======================================= -->
+    <header>
+        <h1>My Tech Blog</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ======================================= -->
+    <!-- TODO 3, 4 & 6: MAIN CONTENT WITH ARTICLE -->
+    <!-- ======================================= -->
+    <main>
+        <article>
+
+            <!-- TODO 3: Article header -->
+            <header>
+                <h2>Getting Started with Semantic HTML5</h2>
+                <p>By <strong>Mariam Alshhar</strong> |
+                    <time datetime="2026-11-26">November 26, 2026</time></p>
+            </header>
+
+            <!-- TODO 3: Article body -->
+            <p>
+                When we start learning web design, it is easy to build every page using only
+                &lt;div&gt; elements. The page may look fine in the browser, but the code does
+                not tell anyone what each part of the page actually means.
+            </p>
+            <p>
+                Semantic HTML solves this problem. Semantic elements describe their content:
+                a &lt;header&gt; is the top of a page, a &lt;nav&gt; holds the navigation links,
+                and an &lt;article&gt; contains a complete piece of content that can stand on its own.
+            </p>
+
+            <h3>Why Semantic HTML Matters</h3>
+            <p>
+                Semantic code is easier to read and maintain. It also helps screen readers
+                understand the structure of the page, which makes websites more accessible
+                for people with visual impairments.
+            </p>
+            <p>
+                Search engines like Google also use these elements to understand which part of
+                the page is the main content, which can improve how the page appears in search results.
+            </p>
+
+            <!-- TODO 4: Figure with image -->
+            <figure>
+                <img src="https://placehold.co/600x300?text=Semantic+HTML+Layout"
+                     alt="Diagram of a page layout with header, nav, main, aside and footer" width="600">
+                <figcaption>Figure 1: The basic layout of a semantic HTML5 page.</figcaption>
+            </figure>
+
+            <h3>The Most Common Semantic Elements</h3>
+            <p>
+                The most used elements are &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;,
+                &lt;article&gt;, &lt;aside&gt;, and &lt;footer&gt;. Elements such as
+                &lt;figure&gt;, &lt;time&gt;, and &lt;address&gt; add even more meaning
+                to small parts of the content.
+            </p>
+
+            <!-- TODO 6: Embedded YouTube video -->
+            <h3>Video Tutorial</h3>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/pQN-pnXPaVg"
+                title="HTML Full Course - Build a Website Tutorial"
+                frameborder="0"
+                allowfullscreen></iframe>
+
+        </article>
+    </main>
+
+    <!-- ======================================= -->
+    <!-- TODO 5: SIDEBAR -->
+    <!-- ======================================= -->
+    <aside>
+        <h3>Related Articles</h3>
+        <ul>
+            <li><a href="#">CSS Flexbox Guide</a></li>
+            <li><a href="#">JavaScript Basics</a></li>
+            <li><a href="#">Responsive Design</a></li>
+            <li><a href="#">Building Accessible HTML Forms</a></li>
+        </ul>
+
+        <h3>About the Author</h3>
+        <p>
+            Mariam Alshhar is a graphic designer and content creator from Gaza, Palestine.
+            She is studying Website Design and Management at Al-Aqsa University.
+        </p>
+    </aside>
+
+    <!-- ======================================= -->
+    <!-- TODO 7: PAGE FOOTER -->
+    <!-- ======================================= -->
+    <footer>
+        <address>
+            Contact: <a href="mailto:info@myblog.com">info@myblog.com</a>
+        </address>
+        <p>&copy; 2026 My Tech Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
